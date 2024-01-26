@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="container">
+        <h1 class="navNetwork">Network</h1>
+    </nav>
+    <header class="container">
+        <h2 class="your-feed">Your Feed</h2>
+    </header>
+    <div class="container d-flex">
+        <aside class="user-card d-flex">
+            <img src="./images/blank_profile_pic.png" alt="blank user profile picture" id="profile-pic">
+            <a href="#" class="avatarLink">Add an avatar</a><br>
+            <h2>James Doe</h2>
+        </aside>
+        <div class="main">
+            <section class="userpost">
+                <div class="postheading d-flex">
+                    <div class="username">
+                        <h1>Neil M</h1>
+                    </div>
+                    <div class="#oflikes d-flex">
+                        <h2 id="NielsLikes">0 Like(s)</h2>
+                        <button onclick="addLikesNiel()" class="likebtn">Like</button>
+                    </div>
+                </div>
+                <div class="postcontent">
+                    <p class="postfont">I just set up this new discord bot, let me know what you all think. <a
+                            href="#">link</a></p>
+                </div>
+            </section>
+            <section class="userpost">
+                <div class="postheading d-flex">
+                    <div class="username">
+                        <h1>Nichole K</h1>
+                    </div>
+                    <div class="#oflikes d-flex">
+                        <h2 id="NicholesLikes">0 Like(s)</h2>
+                        <button onclick="addLikesNichole()" class="likebtn">Like</button>
+                    </div>
+                </div>
+                <div class="postcontent">
+                    <p class="postfont">Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </section>
+            <section class="userpost">
+                <div class="postheading d-flex">
+                    <div class="username">
+                        <h1>Jim R</h1>
+                    </div>
+                    <div class="#oflikes d-flex">
+                        <h2 id="JimsLikes">0 Like(s)</h2>
+                        <button onclick="addLikesJim()" class="likebtn">Like</button>
+                    </div>
+                </div>
+                <div class="postcontent">
+                    <p class="postfont">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
